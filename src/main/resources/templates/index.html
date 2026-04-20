@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="~{base::layout(~{::section})}">
+<head>
+<meta charset="UTF-8">
+<title>E-Store | Ecommerce Website</title>
+</head>
+<body>
+	<section>
+		<!-- Start Top Promo Banner -->
+		<div class="container-fluid promo-bar text-center text-white py-2">
+			<span class="font-monospace"><i class="fa-solid fa-fire me-1"></i> FREE SHIPPING ON ORDERS ABOVE &#8377;999 | SECURE CASH ON DELIVERY <i class="fa-solid fa-truck-fast ms-1"></i></span>
+		</div>
+		<!-- End Top Promo Banner -->
+
+		<!-- Start Carousel -->
+		<div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="hero-overlay"></div>
+					<img src="/img/banner1w.jpg" class="d-block w-100 hero-img" alt="...">
+					<div class="carousel-caption d-flex flex-column justify-content-center align-items-start text-start">
+						<span class="badge bg-indigo px-3 py-2 mb-3 text-uppercase fw-bold letter-spacing">New Drop</span>
+						<h1 class="hero-title display-3 fw-bold mb-3 text-white">DRIPLAB.</h1>
+						<p class="hero-subtitle fs-5 mb-4">Streetwear engineered for the next generation. Unapologetic styles, premium fabrics, bold statements.</p>
+						<div>
+							<a href="/products" class="btn btn-light rounded-pill px-4 py-2 me-3 fw-bold hover-scale text-dark text-decoration-none">Shop Collection</a>
+							<a href="/products?category=T-Shirts" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold hover-scale text-decoration-none">Explore Shirts</a>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="hero-overlay"></div>
+					<img src="/img/banner2w.jpg" class="d-block w-100 hero-img" alt="...">
+					<div class="carousel-caption d-flex flex-column justify-content-center align-items-start text-start">
+						<span class="badge bg-warning px-3 py-2 mb-3 text-uppercase fw-bold text-dark letter-spacing">Exclusive</span>
+						<h1 class="hero-title display-3 fw-bold mb-3 text-white">CHILL VIBES.</h1>
+						<p class="hero-subtitle fs-5 mb-4">Elevate your street presence with our deconstructed blazers and winter fleece drop.</p>
+						<div>
+							<a href="/products" class="btn btn-light rounded-pill px-4 py-2 me-3 fw-bold hover-scale text-dark text-decoration-none">Shop Now</a>
+							<a href="/products?category=Blazers" class="btn btn-outline-light rounded-pill px-4 py-2 fw-bold hover-scale text-decoration-none">Blazers</a>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="hero-overlay"></div>
+					<img src="/img/banner3w.jpg" class="d-block w-100 hero-img" alt="...">
+					<div class="carousel-caption d-flex flex-column justify-content-center align-items-start text-start">
+						<span class="badge bg-indigo px-3 py-2 mb-3 text-uppercase fw-bold letter-spacing">Limited Offer</span>
+						<h1 class="hero-title display-3 fw-bold mb-3 text-white">30% OFF WINTER</h1>
+						<p class="hero-subtitle fs-5 mb-4">Upgrade your closet with curated fits. Free delivery across the country.</p>
+						<div>
+							<a href="/products" class="btn btn-light rounded-pill px-4 py-2 me-3 fw-bold hover-scale text-dark text-decoration-none">Claim Offer</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button"
+				data-bs-target="#carouselExample" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button"
+				data-bs-target="#carouselExample" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+		<!-- End of Carousel -->
+
+		<!-- Start Trust Badges Section -->
+		<div class="container my-5 py-3">
+			<div class="row text-center g-4">
+				<div class="col-md-3 col-sm-6">
+					<div class="p-3 border-0 bg-white rounded shadow-sm hover-scale h-100 d-flex flex-column align-items-center justify-content-center">
+						<div class="text-indigo mb-3"><i class="fa-solid fa-truck-fast fa-2x"></i></div>
+						<h5 class="fw-bold mb-1 fs-6">FREE SHIPPING</h5>
+						<p class="text-muted mb-0 small">On orders above &#8377;999</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="p-3 border-0 bg-white rounded shadow-sm hover-scale h-100 d-flex flex-column align-items-center justify-content-center">
+						<div class="text-indigo mb-3"><i class="fa-solid fa-hand-holding-dollar fa-2x"></i></div>
+						<h5 class="fw-bold mb-1 fs-6">CASH ON DELIVERY</h5>
+						<p class="text-muted mb-0 small">Secure payment at your door</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="p-3 border-0 bg-white rounded shadow-sm hover-scale h-100 d-flex flex-column align-items-center justify-content-center">
+						<div class="text-indigo mb-3"><i class="fa-solid fa-arrows-rotate fa-2x"></i></div>
+						<h5 class="fw-bold mb-1 fs-6">7-DAY RETURNS</h5>
+						<p class="text-muted mb-0 small">Easy replacement policy</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="p-3 border-0 bg-white rounded shadow-sm hover-scale h-100 d-flex flex-column align-items-center justify-content-center">
+						<div class="text-indigo mb-3"><i class="fa-solid fa-circle-check fa-2x"></i></div>
+						<h5 class="fw-bold mb-1 fs-6">100% AUTHENTIC</h5>
+						<p class="text-muted mb-0 small">Directly from the brand lab</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Trust Badges Section -->
+
+		<!-- Start of Category -->
+		<div class="container my-5">
+			<h2 class="text-center fw-bold mb-4 font-outfit text-uppercase">Shop by Category</h2>
+			<div class="row justify-content-center g-3">
+				<div class="col-6 col-sm-4 col-md-3 col-lg-2" th:each="category: ${latestSixActiveCategory}">
+					<a th:href="@{'/products?category='+${category.categoryName}}" class="text-decoration-none category-capsule-link">
+						<div class="category-capsule text-center">
+							<div class="category-img-wrapper mb-3">
+								<img alt="" th:src="@{'/img/category/'+${category.categoryImage}}" class="category-img">
+							</div>
+							<span class="category-title text-dark fs-7">[[${category.categoryName}]]</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- End of Category -->
+
+		<!-- Latest Product for Clothing Store -->
+		<div class="container-fluid bg-light py-5">
+			<div class="container">
+				<h2 class="text-center fw-bold mb-5 font-outfit text-uppercase">Trending Now</h2>
+				<div class="row g-4">
+					<div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch" th:each="product: ${latestEightActiveProducts}">
+						<div class="card product-card w-100 shadow-sm border-0 d-flex flex-column justify-content-between">
+							<div class="product-img-wrapper position-relative">
+								<img alt="" th:src="@{'/img/product_image/'+${product.productImage}}" class="card-img-top">
+								<span th:if="${product.discount > 0}" class="badge bg-danger position-absolute top-0 end-0 m-3 px-2 py-1 fs-7">[[${product.discount}]]% OFF</span>
+							</div>
+							<div class="card-body d-flex flex-column justify-content-between p-3">
+								<div>
+									<p class="text-uppercase text-secondary fs-7 mb-1 font-monospace">[[${product.productCategory}]]</p>
+									<h5 class="card-title text-dark fw-bold fs-6 mb-2">[[${product.productTitle}]]</h5>
+								</div>
+								<div>
+									<div class="d-flex align-items-center mb-3">
+										<span class="fs-5 fw-bold text-dark me-2">&#8377; [[${product.discountPrice}]]</span>
+										<span th:if="${product.productPrice > product.discountPrice}" class="fs-7 text-decoration-line-through text-muted">&#8377; [[${product.productPrice}]]</span>
+									</div>
+									<a th:href="@{'/product/'+${product.id}}" class="btn btn-danger w-100 rounded-pill py-2 fw-semibold fs-7 hover-scale text-decoration-none">View Details</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Latest Product for Clothing Store -->
+
+		<!-- Start Newsletter Component -->
+		<div class="container-fluid bg-dark text-white py-5">
+			<div class="container">
+				<div class="row align-items-center py-4">
+					<div class="col-md-6 mb-4 mb-md-0 text-center text-md-start">
+						<h3 class="fw-bold mb-2 font-outfit text-indigo text-uppercase">Join the Drip Club</h3>
+						<p class="text-white-50 mb-0">Subscribe to get notified about new drop notifications, secret events, and exclusive discounts.</p>
+					</div>
+					<div class="col-md-6">
+						<form class="d-flex gap-2" onsubmit="event.preventDefault(); alert('Subscribed to the Drip Club!');">
+							<input type="email" placeholder="Enter your email address" class="form-control bg-transparent text-white border-secondary rounded-pill px-4 py-3" style="font-size: 0.9rem;" required>
+							<button type="submit" class="btn btn-light rounded-pill px-4 fw-bold hover-scale" style="white-space: nowrap;">Subscribe</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Newsletter Component -->
+		
+		
+	</section>
+</body>
+</html>

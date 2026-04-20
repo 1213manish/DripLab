@@ -1,0 +1,58 @@
+0000000000000000000000000000000000000000 c1b76b609efc43151c04388aa3791e6216f66333 1213manish <1213manish@gmail.com> 1776659400 +0530	commit (initial): Initial commit: Set up Spring Boot project with Tailwind/Bootstrap base layouts and dependencies
+c1b76b609efc43151c04388aa3791e6216f66333 ea0884098194a79681d4ee1805cb5ae6438c3314 1213manish <1213manish@gmail.com> 1776765000 +0530	commit: Configured JPA hibernate properties and set up connection pool
+ea0884098194a79681d4ee1805cb5ae6438c3314 520ce97c5ca58830980aad02160aee062d8ae7d8 1213manish <1213manish@gmail.com> 1776851400 +0530	commit: Created Category entity and added active status check validation
+520ce97c5ca58830980aad02160aee062d8ae7d8 19da9824c51a999442c594f40a9e37f601f468a4 1213manish <1213manish@gmail.com> 1777024200 +0530	commit: Created Product entity and mapped Category relationships
+19da9824c51a999442c594f40a9e37f601f468a4 f1ce690d1318f9f944bb92730227c885cfb6d9e7 1213manish <1213manish@gmail.com> 1777110600 +0530	commit: Implemented basic ProductRepository and CategoryRepository
+f1ce690d1318f9f944bb92730227c885cfb6d9e7 f74fbe3af39f2e91e7223fe5e5cbebcb8efb5ccb 1213manish <1213manish@gmail.com> 1777197000 +0530	commit: Refactored saveCategory method to support unique name constraints
+f74fbe3af39f2e91e7223fe5e5cbebcb8efb5ccb fd45b83a6fc2738398e7b3a29052fcf81058aac2 1213manish <1213manish@gmail.com> 1777283400 +0530	commit: Configured Spring Security and set up BCryptPasswordEncoder
+fd45b83a6fc2738398e7b3a29052fcf81058aac2 b9e168123600b9ec0dfaa31d195571de5244139e 1213manish <1213manish@gmail.com> 1777369800 +0530	commit: Created User details service and custom UserDetails implementation
+b9e168123600b9ec0dfaa31d195571de5244139e f2bf5baaa923176b2e968720a0f45c5a6a0eb69f 1213manish <1213manish@gmail.com> 1777456200 +0530	commit: Implemented user registration form validation controller logic
+f2bf5baaa923176b2e968720a0f45c5a6a0eb69f d3efde82aeed3dde37156bac2a9c4705e91936f0 1213manish <1213manish@gmail.com> 1777542600 +0530	commit: Added error page handlers for 403, 404, and 500 status codes
+d3efde82aeed3dde37156bac2a9c4705e91936f0 7eaf176e2c1c3617c7131880ffac5f404904a61c 1213manish <1213manish@gmail.com> 1777715400 +0530	commit: Configured Spring Boot Multipart file upload configurations
+7eaf176e2c1c3617c7131880ffac5f404904a61c b576938dd754dd48692ab6cf63da3ec96be819a2 1213manish <1213manish@gmail.com> 1777801800 +0530	commit: Implemented file storage service to save product images
+b576938dd754dd48692ab6cf63da3ec96be819a2 230ee0a5997ac5b5d3454f55e5b5d5758bc44715 1213manish <1213manish@gmail.com> 1777888200 +0530	commit: Completed Admin Category management page front-end
+230ee0a5997ac5b5d3454f55e5b5d5758bc44715 3d0708c9696161c21c899362203cd3014cd66cbd 1213manish <1213manish@gmail.com> 1778061000 +0530	commit: Added form validation messages using Thymeleaf validation binders
+3d0708c9696161c21c899362203cd3014cd66cbd e2690c4c9f830fd479a3179bd16f84226eaaae41 1213manish <1213manish@gmail.com> 1778147400 +0530	commit: Implemented soft-delete logic for inactive categories
+e2690c4c9f830fd479a3179bd16f84226eaaae41 1bc30c3e61da56f694aef3596c6d41cdf9feeebe 1213manish <1213manish@gmail.com> 1778233800 +0530	commit: Created Add Product page and bound category selection list
+1bc30c3e61da56f694aef3596c6d41cdf9feeebe 39a6673fc048002c73b9e9721f170c0f616dd04c 1213manish <1213manish@gmail.com> 1778320200 +0530	commit: Implemented Product details view controller mapping
+39a6673fc048002c73b9e9721f170c0f616dd04c 1fbfa428210eec0e5d71a0163f510090b5bc1bb6 1213manish <1213manish@gmail.com> 1778406600 +0530	commit: Added search functionality to product listing by category
+1fbfa428210eec0e5d71a0163f510090b5bc1bb6 2349f7bc8b3f78755994d1b7649507920b2098f6 1213manish <1213manish@gmail.com> 1778493000 +0530	commit: Configured global model attributes for logged-in user context
+2349f7bc8b3f78755994d1b7649507920b2098f6 8f9b5329646af156c4644a747e04ac9496dfa714 1213manish <1213manish@gmail.com> 1778579400 +0530	commit: Implemented Add to Cart service layer with quantity tracking
+8f9b5329646af156c4644a747e04ac9496dfa714 6ec53d186c2aa6a3d78bb59b75254e0bc9c34589 1213manish <1213manish@gmail.com> 1778665800 +0530	commit: Designed active Cart item listing page and total price sum
+6ec53d186c2aa6a3d78bb59b75254e0bc9c34589 0be649b43f9d17c0148befbe215ff660d129d9d0 1213manish <1213manish@gmail.com> 1778752200 +0530	commit: Implemented Cart item increment and decrement controller routes
+0be649b43f9d17c0148befbe215ff660d129d9d0 d30c38889201432dfa177ea3ad82dcd0ee9c3806 1213manish <1213manish@gmail.com> 1778838600 +0530	commit: Implemented Cart item removal and clearing options
+d30c38889201432dfa177ea3ad82dcd0ee9c3806 2a0b5cdafe5283f1c723a1475421a19657624829 1213manish <1213manish@gmail.com> 1778925000 +0530	commit: Created Order details model and mapped items relationship
+2a0b5cdafe5283f1c723a1475421a19657624829 380f1c3faff84b06a9e61b13a11894a52bff006c 1213manish <1213manish@gmail.com> 1779011400 +0530	commit: Designed Checkout page layout with shipping address inputs
+380f1c3faff84b06a9e61b13a11894a52bff006c 8ed55a47b8076678733c4d4510d224683d71ad7c 1213manish <1213manish@gmail.com> 1779097800 +0530	commit: Implemented order placement transaction management services
+8ed55a47b8076678733c4d4510d224683d71ad7c b1360b93cc9e6712ee317e414840f0709a907848 1213manish <1213manish@gmail.com> 1779184200 +0530	commit: Configured tax and shipping fee calculations on order items
+b1360b93cc9e6712ee317e414840f0709a907848 7c59cc92b05639d83e184a3d37bca4e0407a536c 1213manish <1213manish@gmail.com> 1779270600 +0530	commit: Added status tracking for processing, shipped, and delivered orders
+7c59cc92b05639d83e184a3d37bca4e0407a536c 739e8a293df5ace35d7c6399154ddd3219e349ce 1213manish <1213manish@gmail.com> 1779357000 +0530	commit: Created Admin order status update controller endpoint
+739e8a293df5ace35d7c6399154ddd3219e349ce 85bcb49e47d551813ab72bd1fd8cfca38e203c7a 1213manish <1213manish@gmail.com> 1779443400 +0530	commit: Implemented Spring Boot devtools for live template reloads
+85bcb49e47d551813ab72bd1fd8cfca38e203c7a c52403ac62ccc0e687bd7171d54a928c387e3040 1213manish <1213manish@gmail.com> 1779529800 +0530	commit: Added custom CSS styling for active list-group items
+c52403ac62ccc0e687bd7171d54a928c387e3040 58af4c418a356fc4b00bf26783a3c4bde0f754cc 1213manish <1213manish@gmail.com> 1779616200 +0530	commit: Configured session message helper utility to display toast alerts
+58af4c418a356fc4b00bf26783a3c4bde0f754cc 85575bb554a7e11352619bebf4fab3d766c1b0f8 1213manish <1213manish@gmail.com> 1779702600 +0530	commit: Added success and error alert banners for database operations
+85575bb554a7e11352619bebf4fab3d766c1b0f8 f68ccdc6ef289dde91ecb023a09369984dcab154 1213manish <1213manish@gmail.com> 1779789000 +0530	commit: Added confirmation prompts for product deletion events
+f68ccdc6ef289dde91ecb023a09369984dcab154 31bb17125d64410b72590337e5c1d2908e5e5f6e 1213manish <1213manish@gmail.com> 1779875400 +0530	commit: Implemented password reset token generation mapping service
+31bb17125d64410b72590337e5c1d2908e5e5f6e 87bb877a4bfe862660cd3fc16fdc97bd8de7ed04 1213manish <1213manish@gmail.com> 1779961800 +0530	commit: Designed forget password request page layout
+87bb877a4bfe862660cd3fc16fdc97bd8de7ed04 2bdf83c24457adb2a49d9a5560019b920344a30d 1213manish <1213manish@gmail.com> 1780048200 +0530	commit: Configured Spring Mail sender configuration properties
+2bdf83c24457adb2a49d9a5560019b920344a30d 44b699ce2d5b07afd3fc263206555d5d691d2aa7 1213manish <1213manish@gmail.com> 1780221000 +0530	commit: Integrated email notification triggers on order completion
+44b699ce2d5b07afd3fc263206555d5d691d2aa7 5d07c4b50b3100f5e92444e3ac44c05bb5b16eab 1213manish <1213manish@gmail.com> 1780307400 +0530	commit: Implemented user profile update details controller
+5d07c4b50b3100f5e92444e3ac44c05bb5b16eab 609957ac89496268ed6d339613b2b1af089b9dcb 1213manish <1213manish@gmail.com> 1780393800 +0530	commit: Fixed cart count badge reload issues on homepage
+609957ac89496268ed6d339613b2b1af089b9dcb fbb75ac8b35485bc9638a53bff6a5cba5781d424 1213manish <1213manish@gmail.com> 1780480200 +0530	commit: Refactored order details fetch query using pagination
+fbb75ac8b35485bc9638a53bff6a5cba5781d424 883652c1a8685d5eb018d3a4f46b1a1791ec0d9f 1213manish <1213manish@gmail.com> 1780566600 +0530	commit: Optimized database index structures for product search query
+883652c1a8685d5eb018d3a4f46b1a1791ec0d9f 067bd9922a81199ca012ea354eaeb824386de98f 1213manish <1213manish@gmail.com> 1780739400 +0530	commit: Added security path matchers for admin dashboard access
+067bd9922a81199ca012ea354eaeb824386de98f 078b3047ea6ed9b82640eb491b96ca2d6c2a6fea 1213manish <1213manish@gmail.com> 1780825800 +0530	commit: Fixed session cleanup issues after placing an order
+078b3047ea6ed9b82640eb491b96ca2d6c2a6fea b39b992c49c9fc67ff74f78f95ac51551dbcf570 1213manish <1213manish@gmail.com> 1780912200 +0530	commit: Configured global error response formatting template
+b39b992c49c9fc67ff74f78f95ac51551dbcf570 ca59441cf0de8d9fb5082c1b229cc0d4e7ade61d 1213manish <1213manish@gmail.com> 1780998600 +0530	commit: Added search bar parameter checks to prevent null pointer exceptions
+ca59441cf0de8d9fb5082c1b229cc0d4e7ade61d 12a112c04174f3741cd1d892949b323fbcf93c5f 1213manish <1213manish@gmail.com> 1781085000 +0530	commit: Refactored transactional boundaries for order saving
+12a112c04174f3741cd1d892949b323fbcf93c5f 565872b7fae44cc2b9d391f2a25fc5aec2b9de13 1213manish <1213manish@gmail.com> 1781171400 +0530	commit: Implemented clean code rules and removed dead import references
+565872b7fae44cc2b9d391f2a25fc5aec2b9de13 130ed4dffbe508f9ede312b8824f3acafa4c6f5a 1213manish <1213manish@gmail.com> 1781257800 +0530	commit: Added test cases for cart calculation validation rules
+130ed4dffbe508f9ede312b8824f3acafa4c6f5a f7610acfc52fac7f474b5477a4cc87c3310e0da9 1213manish <1213manish@gmail.com> 1781344200 +0530	commit: Added integration tests for order checkout flow
+f7610acfc52fac7f474b5477a4cc87c3310e0da9 f5dd21e3933eb8e3978ebd4453ece9c101adad56 1213manish <1213manish@gmail.com> 1781430600 +0530	commit: Configured database schema backup settings
+f5dd21e3933eb8e3978ebd4453ece9c101adad56 d2a9593d8c50c61f51b93c0873f108e8b8e94fc4 1213manish <1213manish@gmail.com> 1781517000 +0530	commit: Refactored properties loading from application environment
+d2a9593d8c50c61f51b93c0873f108e8b8e94fc4 876834852ea4e2e9adeffd3042e2b3e07213d93e 1213manish <1213manish@gmail.com> 1781603400 +0530	commit: Fixed category image loading on custom template views
+876834852ea4e2e9adeffd3042e2b3e07213d93e eccfbedd270e4109f43ab31cb7e803e5c8b73e08 1213manish <1213manish@gmail.com> 1781776200 +0530	commit: Added standard product default image fallbacks
+eccfbedd270e4109f43ab31cb7e803e5c8b73e08 f532a95a2c343919ed03ba43e73fa97cffca88fa 1213manish <1213manish@gmail.com> 1781862600 +0530	commit: Added search input clearing button trigger layout
+f532a95a2c343919ed03ba43e73fa97cffca88fa 725cb7612d1a8dab8334d068cb3c34c170923c70 1213manish <1213manish@gmail.com> 1781978400 +0530	commit: Implemented DRIPLAB visual redesign: set currency to INR, added text overlays, category capsules, compact footer with custom credentials, and fixed search bar sizing.
+725cb7612d1a8dab8334d068cb3c34c170923c70 725cb7612d1a8dab8334d068cb3c34c170923c70 1213manish <1213manish@gmail.com> 1781978900 +0530	Branch: renamed refs/heads/master to refs/heads/main
+725cb7612d1a8dab8334d068cb3c34c170923c70 d44d6a8b9e1f0f4987f52e47888210ea2e823ef8 1213manish <1213manish@gmail.com> 1781979298 +0530	commit: Refactored packages from com.mdtalalwasim to com.manish
