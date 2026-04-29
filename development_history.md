@@ -8,3 +8,4 @@ Chronological timeline of features built over the last 60 days.
 - **2026-04-26**: Refactored saveCategory method to support unique name constraints
 - **2026-04-27**: Configured Spring Security and set up BCryptPasswordEncoder
 - **2026-04-28**: Created User details service and custom UserDetails implementation
+- **2026-04-29**: Implemented user registration form validation controller logic
