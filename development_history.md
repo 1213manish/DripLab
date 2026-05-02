@@ -11,3 +11,4 @@ Chronological timeline of features built over the last 60 days.
 - **2026-04-29**: Implemented user registration form validation controller logic
 - **2026-04-30**: Added error page handlers for 403, 404, and 500 status codes
 - **2026-05-01**: Configured Spring Boot Multipart file upload configurations
+- **2026-05-02**: Implemented file storage service to save product images
