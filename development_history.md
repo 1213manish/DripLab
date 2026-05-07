@@ -15,3 +15,4 @@ Chronological timeline of features built over the last 60 days.
 - **2026-05-03**: Completed Admin Category management page front-end
 - **2026-05-05**: Added form validation messages using Thymeleaf validation binders
 - **2026-05-06**: Implemented soft-delete logic for inactive categories
+- **2026-05-07**: Created Add Product page and bound category selection list
