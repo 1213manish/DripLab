@@ -18,3 +18,4 @@ Chronological timeline of features built over the last 60 days.
 - **2026-05-07**: Created Add Product page and bound category selection list
 - **2026-05-08**: Implemented Product details view controller mapping
 - **2026-05-09**: Added search functionality to product listing by category
+- **2026-05-10**: Configured global model attributes for logged-in user context
