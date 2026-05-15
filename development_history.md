@@ -21,3 +21,4 @@ Chronological timeline of features built over the last 60 days.
 - **2026-05-10**: Configured global model attributes for logged-in user context
 - **2026-05-12**: Implemented Add to Cart service layer with quantity tracking
 - **2026-05-14**: Designed active Cart item listing page and total price sum
+- **2026-05-15**: Implemented Cart item increment and decrement controller routes
