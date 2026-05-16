@@ -22,3 +22,4 @@ Chronological timeline of features built over the last 60 days.
 - **2026-05-12**: Implemented Add to Cart service layer with quantity tracking
 - **2026-05-14**: Designed active Cart item listing page and total price sum
 - **2026-05-15**: Implemented Cart item increment and decrement controller routes
+- **2026-05-16**: Implemented Cart item removal and clearing options
