@@ -24,3 +24,4 @@ Chronological timeline of features built over the last 60 days.
 - **2026-05-15**: Implemented Cart item increment and decrement controller routes
 - **2026-05-16**: Implemented Cart item removal and clearing options
 - **2026-05-17**: Created Order details model and mapped items relationship
+- **2026-05-18**: Designed Checkout page layout with shipping address inputs
