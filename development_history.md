@@ -26,3 +26,4 @@ Chronological timeline of features built over the last 60 days.
 - **2026-05-17**: Created Order details model and mapped items relationship
 - **2026-05-18**: Designed Checkout page layout with shipping address inputs
 - **2026-05-19**: Implemented order placement transaction management services
+- **2026-05-21**: Configured tax and shipping fee calculations on order items
