@@ -36,3 +36,4 @@ Chronological timeline of features built over the last 60 days.
 - **2026-05-28**: Added confirmation prompts for product deletion events
 - **2026-05-30**: Implemented password reset token generation mapping service
 - **2026-06-01**: Designed forget password request page layout
+- **2026-06-02**: Configured Spring Mail sender configuration properties
