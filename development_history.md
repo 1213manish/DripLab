@@ -48,3 +48,4 @@ Chronological timeline of features built over the last 60 days.
 - **2026-06-12**: Added search bar parameter checks to prevent null pointer exceptions
 - **2026-06-13**: Refactored transactional boundaries for order saving
 - **2026-06-15**: Implemented clean code rules and removed dead import references
+- **2026-06-16**: Added test cases for cart calculation validation rules
